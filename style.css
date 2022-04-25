@@ -1,0 +1,123 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4A5F6A;
+}
+  
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(250, 249, 249);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  
+li a:hover {
+    background-color: rgb(27, 26, 26);
+}
+
+.pedido,.contato{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background-color: #5F7CBA;
+}
+
+form{
+    background-color: white;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+form h1{
+    text-align: center;
+    color: #5F7CBA;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input[type=text],
+form input[type=number]{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px 0;
+    border-radius: 10px;
+}
+
+form input[type=submit]{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #5F7CBA;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.paragrafo1,.paragrafo2{
+  font-size: 50%;
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+form select[type=text],
+form select[type=number]{
+    width: 100%;
+    height: 20px;
+    border: 1px solid #ccc;
+    padding-left: 10px 0;
+    border-radius: 10px;
+}
+
+form input[type=submit]:hover{
+    background-color: #4A5F6A;
+}
+
+form input[type=text]{
+    outline: 0;
+}
+
+form input[type=number]{
+    outline: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
